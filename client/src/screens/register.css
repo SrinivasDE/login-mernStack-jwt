@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register form h3 , .login form h3 {
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.register form input, .login form input {
+    font-size: 20px;
+    margin: 3px;
+
+}
+
+.register form .btn, .login form .btn, .myprofile .btn{
+    background-color: azure;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.register form .btn:hover, .login form .btn:hover,  .myprofile .btn:hover{
+    background: linear-gradient(to right, #7d4ac7 0%, #a733bb 100%);
+    color: #fff;
+}
